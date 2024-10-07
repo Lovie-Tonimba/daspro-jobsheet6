@@ -71,7 +71,7 @@ public class flowchartNo3daspro {
                 }else{
                     System.out.println("Cannot identify data\nThis size is not available in the shoe store");
                 }
-            }else if(category.equalsIgnoreCase("adults")){
+            }else if(category.equalsIgnoreCase("adult")){
                 if(size>=40){
                     if(size<=44){
                         System.out.println("Price 1.500.000");
