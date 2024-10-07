@@ -14,6 +14,8 @@ public class Selection2Exp1244107060101 {
         if(year%4 == 0) {
             if(year%100 != 0) {
                 System.out.println("Leap year");
+            }else{
+                System.out.println("Not a leap year");
             }
         }else{
             System.out.println("Not a leap year");
